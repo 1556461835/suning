@@ -1,6 +1,5 @@
 window.onload = function(){
 	
-	
 	//search的下拉列表
 	let inputD = document.querySelector(".sousuo .sousuo3-d1 input");
 	let texts = document.querySelector(".sousuo .sousuo3-d1 span");
@@ -254,6 +253,18 @@ window.onload = function(){
 		}
 		
 		
+		//返回顶部
+		let top = document.querySelector(".zxm .zd")
+		let top1 = document.querySelector(".zhiding")
+		top.onclick = function(){
+			root.scrollTop=0
+		}
+		top1.onclick = function(){
+			root.scrollTop=0
+		}
+		console.log(top1)
+		
+		
 		//苏宁极物选项卡
 		let smallXuan = document.querySelectorAll(".enter-v7 .video-area .small-show ul li");
 		let bigXuan = document.querySelectorAll(".enter-v7 .video-area .big-show ul li");
@@ -266,3 +277,4 @@ window.onload = function(){
 			}
 		})
 }
+
