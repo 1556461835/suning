@@ -3089,7 +3089,7 @@
 	background: #f90;
 	color: #fff;
 }
-.aside-left li:hover{
+.aside-left li.active{
 	background: #f90;
 	color: #fff;
 }
